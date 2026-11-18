@@ -1,0 +1,4 @@
+﻿grilla;n_neighbors_probados;weights_probados;mejor_k;mejor_weights;accuracy_cv
+Base;[3, 5, 7, 9];uniform;7;uniform;0,8424999999999999
+Más valores de k;[1, 3, 5, 7, 9, 11, 13, 15];uniform;7;uniform;0,8424999999999999
+Ponderación por distancia;[3, 5, 7, 9];uniform, distance;5;distance;0,8424999999999999

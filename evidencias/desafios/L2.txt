@@ -1,0 +1,19 @@
+Regresión logística | Prueba estratificada
+              precision    recall  f1-score   support
+
+           0     0.6207    0.7059    0.6606        51
+           1     0.6429    0.5510    0.5934        49
+
+    accuracy                         0.6300       100
+   macro avg     0.6318    0.6285    0.6270       100
+weighted avg     0.6316    0.6300    0.6276       100
+
+Matriz de confusión (orden 0, 1):
+[[36 15]
+ [22 27]]
+DBSCAN | Segmentación de 360 observaciones
+   eps  min_samples  grupos  ruido  ruido_pct
+0.2800            5       3      0     0.0000
+0.1500            5       3      3     0.8333
+0.4500            5       3      0     0.0000
+0.2800           10       3      0     0.0000

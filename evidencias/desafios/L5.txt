@@ -1,0 +1,11 @@
+         modelo  C gamma  accuracy_cv  desv_cv
+       SVM base  1 scale       0.8325   0.0367
+    SVM C mayor 10 scale       0.8375   0.0362
+SVM gamma menor  1  0.01       0.7075   0.0451
+    Naive Bayes  —     —       0.6975   0.0572
+     K-NN (k=5)  —     —       0.8400   0.0382
+Prueba final de K-NN (k=5): accuracy=0.8600
+    modelo  grupos  silhouette
+   K-Means       3      0.8843
+Jerárquico       3      0.8843
+t-SNE: (360, 2) | gráfico coloreado con etiquetas de K-Means

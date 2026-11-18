@@ -1,0 +1,10 @@
+Clasificacion:               precision    recall  f1-score   support
+
+           0       0.62      0.71      0.66        51
+           1       0.64      0.55      0.59        49
+
+    accuracy                           0.63       100
+   macro avg       0.63      0.63      0.63       100
+weighted avg       0.63      0.63      0.63       100
+
+DBSCAN: grupos 3 ruido 0

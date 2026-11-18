@@ -1,0 +1,5 @@
+   modelo  cv_train  test
+Logistica     0.700  0.63
+   Bosque     0.842  0.83
+      SVM     0.830  0.81
+Interpretar rendimiento, costo de errores y limitaciones antes de recomendar.

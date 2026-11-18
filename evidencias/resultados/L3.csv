@@ -1,0 +1,5 @@
+﻿modelo;max_depth;min_samples_leaf;n_estimators;accuracy_cv;desv_cv
+Árbol base;4;1;—;0,78;0,0551135192126215
+Árbol más profundo;8;1;—;0,7725;0,03824264635194586
+Árbol con hojas mayores;4;8;—;0,7775;0,0598957427535547
+Bosque de referencia;None;1;100;0,8574999999999999;0,03316624790355401

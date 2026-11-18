@@ -1,0 +1,8 @@
+Observaciones: 400 | Variables: 5 | Entrenamiento: 320 | Prueba: 80
+Nulos en X/y: 0/0 | Filas duplicadas en X: 0
+            configuracion  fit_intercept  positive  mae_cv  r2_cv
+                     Base           True     False 14.3901 0.9665
+           Sin intercepto          False     False 14.3408 0.9664
+Coeficientes no negativos           True      True 14.3901 0.9665
+Selección por MAE CV: Sin intercepto
+Prueba final: MAE=15.1882 | R²=0.9617

@@ -1,0 +1,4 @@
+﻿configuracion;fit_intercept;positive;mae_cv;r2_cv
+Base;True;False;14,390103793589129;0,9664724711620876
+Sin intercepto;False;False;14,34077401646349;0,9664023989116975
+Coeficientes no negativos;True;True;14,390103793589123;0,9664724711620876

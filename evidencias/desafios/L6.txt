@@ -1,0 +1,7 @@
+Observaciones: 372 | Inyectadas: 12 | Semilla: 42
+ contamination  n_estimators  alertas  inyectadas_detectadas  alertas_en_datos_base  recuperacion_inyectadas
+        0.0400           100       15                     11                      4                   0.9167
+        0.0200           100        8                      8                      0                   0.6667
+        0.0800           100       30                     11                     19                   0.9167
+        0.0400           250       15                     11                      4                   0.9167
+La procedencia de los puntos se usa solo para interpretar las alertas.

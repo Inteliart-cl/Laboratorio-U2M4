@@ -1,0 +1,20 @@
+                  modelo n_estimators max_depth  accuracy_cv  recall_riesgo_cv  precision_riesgo_cv
+               Logística            —         —       0.7125            0.7119               0.7117
+             Bosque base          100      None       0.8575            0.8231               0.8852
+                     SVM            —         —       0.8325            0.7981               0.8597
+   Bosque de 250 árboles          250      None       0.8525            0.8179               0.8795
+Bosque con profundidad 6          100         6       0.8375            0.7776               0.8839
+Modelo seleccionado por accuracy CV: Bosque base
+Prueba final | clase 1 = riesgo
+              precision    recall  f1-score   support
+
+           0     0.8400    0.8235    0.8317        51
+           1     0.8200    0.8367    0.8283        49
+
+    accuracy                         0.8300       100
+   macro avg     0.8300    0.8301    0.8300       100
+weighted avg     0.8302    0.8300    0.8300       100
+
+Matriz de confusión (orden 0, 1):
+[[42  9]
+ [ 8 41]]

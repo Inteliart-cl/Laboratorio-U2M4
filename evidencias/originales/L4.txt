@@ -1,0 +1,4 @@
+Profundidad 2 train 0.78 test 0.72
+Profundidad 4 train 0.873 test 0.79
+Profundidad 8 train 0.955 test 0.81
+Profundidad None train 1.0 test 0.8

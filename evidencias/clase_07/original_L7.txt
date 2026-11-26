@@ -1,0 +1,5 @@
+Comando: .\.venv\Scripts\python.exe -B -X utf8 .\originales\laboratorio_7.py
+Código de salida: 0
+
+CV mejor: {'modelo__n_neighbors': 7} CV: 0.842
+Test final: 0.83

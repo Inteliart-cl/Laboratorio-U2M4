@@ -1,0 +1,18 @@
+Comando: .\.venv\Scripts\python.exe -B -X utf8 -m evidencias.clase_04.priorizar_revision
+Código de salida: 0
+
+Regresión logística: 120 casos de riesgo detectados en validación
+Bosque aleatorio: 145 casos de riesgo detectados en validación
+Modelo elegido con el mismo presupuesto de revisión: Bosque aleatorio
+                 etapa pliegue              modelo  casos  revisiones  riesgo_total  riesgo_detectado  riesgo_omitido  recall_riesgo  precision_revision
+            Validación       1 Regresión logística     80          32            40                23              17         0.5750              0.7188
+            Validación       2 Regresión logística     80          32            40                24              16         0.6000              0.7500
+            Validación       3 Regresión logística     80          32            40                26              14         0.6500              0.8125
+            Validación       4 Regresión logística     80          32            39                23              16         0.5897              0.7188
+            Validación       5 Regresión logística     80          32            39                24              15         0.6154              0.7500
+            Validación       1    Bosque aleatorio     80          32            40                27              13         0.6750              0.8438
+            Validación       2    Bosque aleatorio     80          32            40                31               9         0.7750              0.9688
+            Validación       3    Bosque aleatorio     80          32            40                31               9         0.7750              0.9688
+            Validación       4    Bosque aleatorio     80          32            39                29              10         0.7436              0.9062
+            Validación       5    Bosque aleatorio     80          32            39                27              12         0.6923              0.8438
+Prueba del laboratorio       —    Bosque aleatorio    100          40            49                34              15         0.6939              0.8500

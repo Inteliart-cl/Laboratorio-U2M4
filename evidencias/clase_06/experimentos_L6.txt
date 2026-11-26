@@ -1,0 +1,14 @@
+Comando: .\.venv\Scripts\python.exe -B -X utf8 -m evidencias.clase_06.laboratorio_6_experimentos
+Código de salida: 0
+
+Observaciones: 372 | Base: 360 | Añadidas: 12 | Semilla: 42
+Columnas: frecuencia, valor
+Índices con alerta para contamination=0.02: [361, 362, 363, 364, 367, 368, 370, 371]
+Índices con alerta para contamination=0.04: [68, 276, 278, 305, 360, 361, 362, 363, 364, 366, 367, 368, 369, 370, 371]
+Índices con alerta para contamination=0.08: [4, 30, 68, 110, 122, 160, 167, 186, 197, 216, 276, 278, 287, 294, 299, 305, 329, 330, 340, 360, 361, 362, 363, 364, 366, 367, 368, 369, 370, 371]
+
+Comparación de umbrales
+ contamination  alertas  sin_alerta  anadidas_con_alerta  base_con_alerta  anadidas_sin_alerta
+        0.0200        8         364                    8                0                    4
+        0.0400       15         357                   11                4                    1
+        0.0800       30         342                   11               19                    1

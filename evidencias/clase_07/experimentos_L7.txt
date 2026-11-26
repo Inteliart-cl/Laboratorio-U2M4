@@ -1,0 +1,23 @@
+Comando: .\.venv\Scripts\python.exe -B -X utf8 -m evidencias.clase_07.laboratorio_7_experimentos
+Código de salida: 0
+
+Configuración elegida por CV: B
+Entrenamiento: 400 | Test: 100 | Rondas de CV: 5
+configuracion  combinaciones  n_neighbors  p  weights  accuracy_cv  desv_cv  accuracy_test
+      Inicial              4            7  2  uniform       0.8425   0.0472         0.8300
+            A              7            7  2  uniform       0.8425   0.0472         0.8300
+            B             16            9  1 distance       0.8550   0.0451         0.8100
+Test de Inicial y A: registro didáctico.
+Mejores parámetros: {'modelo__n_neighbors': 9, 'modelo__p': 1, 'modelo__weights': 'distance'}
+Matriz de confusión (filas reales, columnas predichas, orden 0 y 1):
+[[43  8]
+ [11 38]]
+Reporte de clasificación:
+              precision    recall  f1-score   support
+
+  Sin riesgo      0.796     0.843     0.819        51
+  Con riesgo      0.826     0.776     0.800        49
+
+    accuracy                          0.810       100
+   macro avg      0.811     0.809     0.810       100
+weighted avg      0.811     0.810     0.810       100

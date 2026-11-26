@@ -82,9 +82,9 @@ def main():
                         help="números de laboratorio, del 1 al 8")
     modo = parser.add_mutually_exclusive_group()
     modo.add_argument("--solo-desafios", action="store_true")
-    modo.add_argument("--actividades", action="store_true", help="guarda las evidencias de las clases 1 y 2")
+    modo.add_argument("--actividades", action="store_true", help="guarda las evidencias de las clases 1 a 3")
     opciones = parser.parse_args()
-    disponibles = range(1, 3) if opciones.actividades else range(1, 9)
+    disponibles = range(1, 4) if opciones.actividades else range(1, 9)
     laboratorios = opciones.laboratorios or disponibles
     if any(numero not in disponibles for numero in laboratorios):
         parser.error(f"Los números deben estar entre 1 y {disponibles[-1]} para este modo.")

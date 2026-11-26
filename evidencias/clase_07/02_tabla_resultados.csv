@@ -1,0 +1,4 @@
+﻿configuracion;combinaciones;n_neighbors;p;weights;accuracy_cv;desv_cv;accuracy_test
+Inicial;4;7;2;uniform;0,8424999999999999;0,04716990566028302;0,83
+A;7;7;2;uniform;0,8424999999999999;0,04716990566028302;0,83
+B;16;9;1;distance;0,8549999999999999;0,04513867521316947;0,81

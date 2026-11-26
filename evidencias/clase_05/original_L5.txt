@@ -1,0 +1,9 @@
+Comando: .\.venv\Scripts\python.exe -B -X utf8 .\originales\laboratorio_5.py
+Código de salida: 0
+
+SVM 0.81
+Naive Bayes 0.68
+KNN 0.86
+KMeans silhouette 0.884
+Jerarquico silhouette 0.884
+t-SNE solo visualizacion: (360, 2)

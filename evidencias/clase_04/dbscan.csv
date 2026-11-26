@@ -1,0 +1,4 @@
+﻿experimento;eps;min_samples;grupos;ruido
+Radio menor;0,18;5;3;1
+Original;0,28;5;3;0
+Radio mayor;0,45;5;3;0

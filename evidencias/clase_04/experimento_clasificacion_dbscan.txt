@@ -1,0 +1,32 @@
+Comando: .\.venv\Scripts\python.exe -B -X utf8 -m evidencias.clase_04.clasificacion_dbscan
+Código de salida: 0
+
+Clasificación de riesgo | Entrenamiento: 400 | Prueba: 100 | Semilla: 42
+   categoria  precision  recall  f1-score  support
+     Clase 0     0.6207  0.7059    0.6606  51.0000
+     Clase 1     0.6429  0.5510    0.5934  49.0000
+   Macro avg     0.6318  0.6285    0.6270 100.0000
+Weighted avg     0.6316  0.6300    0.6276 100.0000
+Accuracy: 0.6300 | Matriz de confusión (orden 0, 1):
+[[36 15]
+ [22 27]]
+
+Simulación | Diez casos clasificados como sin riesgo más próximos al umbral
+ registro  riesgo  prediccion  puntaje
+      218       1           0   0.4992
+      167       1           0   0.4990
+      393       1           0   0.4956
+       65       1           0   0.4934
+      294       0           0   0.4895
+      251       0           0   0.4868
+      499       0           0   0.4768
+      120       0           0   0.4719
+       62       1           0   0.4631
+      334       1           0   0.4610
+Casos de riesgo recuperados: 6 de 10 revisados
+
+DBSCAN | 360 observaciones | Variables: frecuencia, valor
+experimento    eps  min_samples  grupos  ruido
+Radio menor 0.1800            5       3      1
+   Original 0.2800            5       3      0
+Radio mayor 0.4500            5       3      0

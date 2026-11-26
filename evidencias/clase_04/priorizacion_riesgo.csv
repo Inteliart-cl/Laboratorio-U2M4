@@ -1,0 +1,12 @@
+﻿etapa;pliegue;modelo;casos;revisiones;riesgo_total;riesgo_detectado;riesgo_omitido;recall_riesgo;precision_revision
+Validación;1;Regresión logística;80;32;40;23;17;0,575;0,71875
+Validación;2;Regresión logística;80;32;40;24;16;0,6;0,75
+Validación;3;Regresión logística;80;32;40;26;14;0,65;0,8125
+Validación;4;Regresión logística;80;32;39;23;16;0,5897435897435898;0,71875
+Validación;5;Regresión logística;80;32;39;24;15;0,6153846153846154;0,75
+Validación;1;Bosque aleatorio;80;32;40;27;13;0,675;0,84375
+Validación;2;Bosque aleatorio;80;32;40;31;9;0,775;0,96875
+Validación;3;Bosque aleatorio;80;32;40;31;9;0,775;0,96875
+Validación;4;Bosque aleatorio;80;32;39;29;10;0,7435897435897436;0,90625
+Validación;5;Bosque aleatorio;80;32;39;27;12;0,6923076923076923;0,84375
+Prueba del laboratorio;—;Bosque aleatorio;100;40;49;34;15;0,6938775510204082;0,85

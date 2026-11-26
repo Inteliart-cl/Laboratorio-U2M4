@@ -1,0 +1,17 @@
+Comando: .\.venv\Scripts\python.exe -B -X utf8 -m evidencias.clase_04.regresion
+Código de salida: 0
+
+Datos: 400 filas, 5 indicadores | Objetivo: ventas_estimadas | Semilla: 42
+Entradas: indicador_1, indicador_2, indicador_3, indicador_4, indicador_5
+Nulos X/y: 0/0 | Filas duplicadas en X: 0
+indicador_1: media=0.0537 | desviación estándar=0.9625
+
+Comparación de particiones
+       escenario  prueba_pct  filas_entrenamiento  filas_prueba     mae     r2
+    A · original          20                  320            80 15.3294 0.9607
+B · exploratorio          30                  280           120 14.3080 0.9656
+
+Comparación sobre la prueba original | Media de y de entrenamiento: 9.9974
+                modelo     mae
+      Regresión lineal 15.3294
+Media de entrenamiento 76.7753
